@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
 <style>
 .hero button {
   background: #050505;
@@ -75,15 +75,19 @@ nav a:hover {
   color: #006400;
 }
 
+/* Cart grid */
+#cart-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
 /* Cart items */
 .cart-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
-  padding: 15px;
+ padding: 15px;
   border: 1px solid #ddd;
   border-radius: 10px;
   background: #fff;
+  text-align: center;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 .cart-image {
@@ -151,8 +155,8 @@ nav a:hover {
 <body>
     <form id="form1" runat="server">
         <div>
-            <header>
-<div class="logo"><a href="http://127.0.0.1:5500/home_ps.html"><img alt="Logo" src="../image/logo.jpg"></a> | AgriMech Mart</div>
+           <header>
+<div class="logo"><a href="http://127.0.0.1:5500/home_ps.html"><img alt="Logo" src="logo.jpg"></a> | AgriMech Mart</div>
   <div class="search-bar">
     <input placeholder="Search for spare parts, brands, or part numbers..." type="text"/>
   </div>
@@ -178,20 +182,20 @@ nav a:hover {
 <!-- JS -->
 <script src="script.js"></script>
 <script>
-  function renderCart() {
-    let cart = JSON.parse(localStorage.getItem("cart")) || [];
-    let cartList = document.getElementById("cart-list");
-    let cartTotal = document.getElementById("cart-total");
-    cartList.innerHTML = "";
-    let total = 0;
+    function renderCart() {
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        let cartList = document.getElementById("cart-list");
+        let cartTotal = document.getElementById("cart-total");
+        cartList.innerHTML = "";
+        let total = 0;
 
-    if (cart.length === 0) {
-      cartList.innerHTML = "<p>Your cart is empty.</p>";
-    }
+        if (cart.length === 0) {
+            cartList.innerHTML = "<p>Your cart is empty.</p>";
+        }
 
-    cart.forEach((item, index) => {
-      total += item.price * item.qty;
-      cartList.innerHTML += `
+        cart.forEach((item, index) => {
+            total += item.price * item.qty;
+            cartList.innerHTML += `
         <div class="cart-item">
           <img src="${item.image}" alt="${item.name}" class="cart-image">
           <div class="cart-details">
@@ -207,35 +211,34 @@ nav a:hover {
           </div>
         </div>
       `;
-    });
+        });
 
-    cartTotal.textContent = "₹" + total;
-  }
-
-  // 🔹 Update quantity
-  function updateQty(index, change) {
-    let cart = JSON.parse(localStorage.getItem("cart")) || [];
-    if (cart[index]) {
-      cart[index].qty += change;
-      if (cart[index].qty <= 0) {
-        cart.splice(index, 1); // remove if qty 0
-      }
-      localStorage.setItem("cart", JSON.stringify(cart));
-      renderCart();
+        cartTotal.textContent = "₹" + total;
     }
-  }
 
-  // 🔹 Remove item
-  function removeItem(index) {
-    let cart = JSON.parse(localStorage.getItem("cart")) || [];
-    cart.splice(index, 1);
-    localStorage.setItem("cart", JSON.stringify(cart));
-    renderCart();
-  }
+    // 🔹 Update quantity
+    function updateQty(index, change) {
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        if (cart[index]) {
+            cart[index].qty += change;
+            if (cart[index].qty <= 0) {
+                cart.splice(index, 1); // remove if qty 0
+            }
+            localStorage.setItem("cart", JSON.stringify(cart));
+            renderCart();
+        }
+    }
 
-  document.addEventListener("DOMContentLoaded", renderCart);
+    // 🔹 Remove item
+    function removeItem(index) {
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        cart.splice(index, 1);
+        localStorage.setItem("cart", JSON.stringify(cart));
+        renderCart();
+    }
+
+    document.addEventListener("DOMContentLoaded", renderCart);
 </script>
-
 
         </div>
     </form>

@@ -391,6 +391,7 @@ img {
 <p>Keep your harvest running smoothly with genuine OEM parts and expert support. Fast delivery, competitive prices, and unmatched quality.</p>
 <asp:Button ID="btnRedirect" runat="server" Text="Shop Parts Now →" OnClick="btnRedirect_Click" />
 
+    
 </div>
 <img alt="Harvester" src="https://images.unsplash.com/photo-1689150396762-65ed008390cf?w=600&amp;h=400&amp;fit=crop.jpg"/>
 </section>
