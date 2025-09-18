@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace agrimech_mart.index
 {
-    public partial class Home : System.Web.UI.Page
+    public partial class login : System.Web.UI.Page
     {
-        protected void btnRedirect_Click(object sender, EventArgs e)
+        protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Redirect("Product.aspx");
+
         }
     }
 }
