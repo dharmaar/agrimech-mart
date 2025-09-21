@@ -12,7 +12,7 @@ namespace agrimech_mart.index
         protected void btnRedirect_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/product.aspx");
-          
+
 
         }
     }

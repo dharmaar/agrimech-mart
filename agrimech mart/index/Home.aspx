@@ -1,8 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="agrimech_mart.index.Home" %>
 
-<!DOCTYPE html>
+<!DOCTYPE aspx>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<aspx xmlns="http://www.w3.org/1999/xaspx">
 <head runat="server">
     <title></title>
     <style>
@@ -372,16 +372,17 @@ img {
     <form id="form1" runat="server">
         <div>
              <header>
-<div class="logo"><a href="http://127.0.0.1:5500/home_ps.html"><img alt="Logo" src="../image/logo.jpg"></a> | AgriMech Mart</div>
+<div class="logo"><a href="http://localhost:50446/index/home_ps.aspx"><img alt="Logo" src="../image/logo.jpg"></a> | AgriMech Mart</div>
 <div class="search-bar">
 <input placeholder="Search for spare parts, brands, or part numbers..." type="text"/>
 </div>
 <nav>
-<a href="http://127.0.0.1:5500/product_ps.html" target="_blank">Products</a>
-<a href="http://127.0.0.1:5500/vendor_ps.html#" target="_blank">Vendor Portal</a>
-<a href="http://127.0.0.1:5500/cart.html">Cart</a>
-<a href="http://127.0.0.1:5500/checkout.html">Checkout</a>
-<a href="http://127.0.0.1:5500/login_ps.html" target="_blank">Login</a>
+<a href="http://localhost:50446/index/product.aspx" target="_blank">Products</a>
+<a href="http://localhost:50446/index/vendor_ps.aspx" target="_blank">Vendor Portal</a>
+<a href="http://localhost:50446/index/cart.aspx">Cart</a>
+<a href="http://localhost:50446/index/checkout.aspx">Checkout</a>
+<a href="http://localhost:50446/index/login_ps.aspx" target="_blank">Login</a>
+ <a href="http://localhost:50446/index/signup_ps.aspx " target="_blank">Sign in</a>
 </nav>
 </header>
 <!-- Hero Section -->
@@ -389,7 +390,7 @@ img {
 <div class="hero-text">
 <h1>Premium Paddy Harvester Spare Parts</h1>
 <p>Keep your harvest running smoothly with genuine OEM parts and expert support. Fast delivery, competitive prices, and unmatched quality.</p>
-<asp:Button ID="btnRedirect" runat="server" Text="Shop Parts Now →" OnClick="btnRedirect_Click" />
+<asp:Button ID="btnRedirect" runat="server" Text="Shop Parts Now →"  />
 
     
 </div>
@@ -429,7 +430,7 @@ img {
 <!-- Product 2 -->
 <div class="col-md-4 mb-4 product-card product-item" data-name="Harvester spikes">
 <div class="card h-100">
-<img alt="Harvester spikes" class="card-img-top" src="Harvester spikes.jpg"/>
+<img alt="Harvester spikes" class="card-img-top" src="../image/Harvester_spikes.jpg"/>
 <div class="card-body">
 <h4 class="card-title">Harvester spikes</h4>
 <p>John Deere - Standard</p>
@@ -443,7 +444,7 @@ img {
 <!-- Product 3 -->
 <div class="col-md-4 mb-4 product-card product-item" data-name="6 leaf auger">
 <div class="card h-100">
-<img alt="6 leaf auger" class="card-img-top" src="6 leaf auger.jpg"/>
+<img alt="6 leaf auger" class="card-img-top" src="../image/6%20leaf%20auger.jpg"/>
 <div class="card-body">
 <h4 class="card-title">6 leaf auger</h4>
 <p>John Deere - 48 inch</p>
@@ -457,7 +458,7 @@ img {
 <!-- Product 4 -->
 <div class="col-md-4 mb-4 product-card product-item" data-name="115-c belt">
 <div class="card h-100">
-<img alt="115-c belt" class="card-img-top" src="115-c belt.jpg"/>
+<img alt="115-c belt" class="card-img-top" src="../image/115-c%20belt.jpg"/>
 <div class="card-body">
 <h4 class="card-title">115-c belt</h4>
 <p>Case IH - Heavy Duty</p>
@@ -471,7 +472,7 @@ img {
 <!-- Product 5 -->
 <div class="col-md-4 mb-4 product-card product-item" data-name="blade assembly set">
 <div class="card h-100">
-<img alt="blade assembly set" class="card-img-top" src="blade assembly set.jpg"/>
+<img alt="blade assembly set" class="card-img-top" src="../image/blade%20assembly%20set.jpg"/>
 <div class="card-body">
 <h4 class="card-title">blade assembly set</h4>
 <p>New Holland - Durable</p>
@@ -484,7 +485,7 @@ img {
 </div>
 </div>
 <section class="hero">
-<div class="hero-text"><button onclick="window.open('product_ps.html', '_blank')">
+<div class="hero-text"><button onclick="window.open('product_ps.aspx', '_blank')">
   explore more →</button></div></section>
 <!-- Vendors -->
 <section class="vendors">
@@ -535,4 +536,4 @@ img {
         </div>
     </form>
 </body>
-</html>
+</aspx>
