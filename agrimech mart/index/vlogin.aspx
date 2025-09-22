@@ -109,7 +109,7 @@
     </form>
     <div class="signup-text">
       Don’t have a vendor account? 
-      <a href="http://localhost:50446/index/vendor.aspx" target="_blank">Register as a Vendor</a>
+      <a href="http://localhost:50446/index/vsignup.aspx" target="_blank">Register as a Vendor</a>
     </div>
   </div>
 
