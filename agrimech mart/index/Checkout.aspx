@@ -89,35 +89,35 @@ img {
     <form id="form1" runat="server">
         <div>
             <header>
-<div class="logo"><a href="http://127.0.0.1:5500/home_ps.html"><img alt="Logo" src="../image/logo.jpg"></a> | AgriMech Mart</div>
+<div class="logo"><a href="http://localhost:50446/index/home.aspx"><img alt="Logo" src="../image/logo.jpg"></a> | AgriMech Mart</div>
 <div class="search-bar">
 <input placeholder="Search for spare parts, brands, or part numbers..." type="text"/>
 </div>
 <nav>
-<a href="http://127.0.0.1:5500/product_ps.html" target="_blank">Products</a>
-<a href="http://127.0.0.1:5500/vendor_ps.html#" target="_blank">Vendor Portal</a>
-<a href="http://127.0.0.1:5500/cart.html">Cart</a>
-<a href="http://127.0.0.1:5500/checkout.html">Checkout</a>
-<a href="http://127.0.0.1:5500/login_ps.html" target="_blank">Login</a>
+<a href="http://localhost:50446/index/product.aspx" target="_blank">Products</a>
+<a href="http://localhost:50446/index/vlogin.aspx#" target="_blank">Vendor Portal</a>
+<a href="http://localhost:50446/index/cart.aspx">Cart</a>
+<a href="http://localhost:50446/index/checkout.aspx">Checkout</a>
+<a href="http://localhost:50446/index/login.aspx" target="_blank">Login</a>
 </nav>
 </header>
 <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 <div class="container-fluid">
-<a class="navbar-brand" href="home_ps.html">PH | Paddy Harvester</a>
+<a class="navbar-brand" href="home.aspx">PH | Paddy Harvester</a>
 <button class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarNav">
 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-<li class="nav-item"><a class="nav-link" href="home_ps.html">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="product_ps.html">Products</a></li>
+<li class="nav-item"><a class="nav-link" href="home.aspx">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="product.aspx">Products</a></li>
 <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
 <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout</a></li>
-<li class="nav-item"><a class="nav-link" href="vendor_ps.html">Vendor</a></li>
+<li class="nav-item"><a class="nav-link" href="vendor.aspx">Vendor</a></li>
 </ul>
 <ul class="navbar-nav">
-<li class="nav-item"><a class="nav-link" href="login_ps.html">Login</a></li>
-<li class="nav-item"><a class="nav-link" href="signup_ps.html">Sign Up</a></li>
+<li class="nav-item"><a class="nav-link" href="login.aspx">Login</a></li>
+<li class="nav-item"><a class="nav-link" href="signup.aspx">Sign Up</a></li>
 </ul>
 </div>
 </div>

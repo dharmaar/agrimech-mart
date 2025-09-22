@@ -287,16 +287,14 @@ img {
     <form id="form1" runat="server">
         <div>
             <header>
-<div class="logo"><a href="http://127.0.0.1:5500/home_ps.html"><img alt="Logo" src="../image/logo.jpg"></a> | AgriMech Mart</div>
+<div class="logo"><a href="http://localhost:50446/index/home.aspx"><img alt="Logo" src="../image/logo.jpg"></a> | AgriMech Mart</div>
 <div class="search-bar">
 <input placeholder="Search for spare parts, brands, or part numbers..." type="text"/>
 </div>
 <nav>
-<a href="http://127.0.0.1:5500/product_ps.html" target="_blank">Products</a>
-<a href="http://127.0.0.1:5500/vendor_ps.html#" target="_blank">Vendor Portal</a>
-<a href="http://127.0.0.1:5500/cart.html">Cart</a>
-<a href="http://127.0.0.1:5500/checkout.html">Checkout</a>
-<a href="http://127.0.0.1:5500/login_ps.html" target="_blank">Login</a>
+<a href="http://localhost:50446/index/product.aspx" target="_blank">Products</a>
+<a href="http://localhost:50446/index/vlogin.aspx" target="_blank">Vendor Portal</a>
+
 </nav>
 </header>
 <!-- Dashboard -->

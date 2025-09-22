@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="signin.aspx.cs" Inherits="agrimech_mart.index.signin" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="signup.aspx.cs" Inherits="agrimech_mart.index.signin" %>
 
 <!DOCTYPE html>
 
@@ -152,7 +152,7 @@ img {
 <button type="submit">Create Account</button>
 </form>
 <div class="signin">
-      Already have an account? <a href="http://127.0.0.1:5500/login_ps.html">Sign in here</a>
+      Already have an account? <a href="http://localhost:50446/index/home.aspx">Sign in here</a>
 </div>
 <div class="demo">
 <p><strong>Password must be at least 8 characters long and include 1 uppercase letter, 

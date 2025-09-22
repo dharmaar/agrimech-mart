@@ -85,7 +85,7 @@ img {
     <form id="form1" runat="server">
         <div>
              <header>
-<div class="logo"><a href="http://127.0.0.1:5500/home_ps.html"><img alt="Logo" src="../image/logo.jpg"></a> | AgriMech Mart</div>
+<div class="logo"><a href="http://localhost:50446/index/home.aspx"><img alt="Logo" src="../image/logo.jpg"></a> | AgriMech Mart</div>
 <div class="search-bar">
 <input placeholder="Search for spare parts, brands, or part numbers..." type="text"/>
 </div>

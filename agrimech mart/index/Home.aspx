@@ -383,7 +383,7 @@ img {
 <a href="http://localhost:50446/index/cart.aspx">Cart</a>
 <a href="http://localhost:50446/index/checkout.aspx">Checkout</a>
 <a href="http://localhost:50446/index/login.aspx" target="_blank">Login</a>
- <a href="http://localhost:50446/index/signin.aspx " target="_blank">Sign in</a>
+ <a href="http://localhost:50446/index/signup.aspx " target="_blank">Sign in</a>
 </nav>
 </header>
 <!-- Hero Section -->

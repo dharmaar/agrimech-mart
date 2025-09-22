@@ -86,9 +86,10 @@
     <Content Include="index\login.aspx" />
     <Content Include="index\orderplaced.aspx" />
     <Content Include="index\product.aspx" />
-    <Content Include="index\signin.aspx" />
+    <Content Include="index\signup.aspx" />
     <Content Include="index\vendor.aspx" />
     <Content Include="index\vlogin.aspx" />
+    <Content Include="index\vsignup.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -134,12 +135,12 @@
     <Compile Include="index\product.aspx.designer.cs">
       <DependentUpon>product.aspx</DependentUpon>
     </Compile>
-    <Compile Include="index\signin.aspx.cs">
-      <DependentUpon>signin.aspx</DependentUpon>
+    <Compile Include="index\signup.aspx.cs">
+      <DependentUpon>signup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="index\signin.aspx.designer.cs">
-      <DependentUpon>signin.aspx</DependentUpon>
+    <Compile Include="index\signup.aspx.designer.cs">
+      <DependentUpon>signup.aspx</DependentUpon>
     </Compile>
     <Compile Include="index\vendor.aspx.cs">
       <DependentUpon>vendor.aspx</DependentUpon>
@@ -154,6 +155,13 @@
     </Compile>
     <Compile Include="index\vlogin.aspx.designer.cs">
       <DependentUpon>vlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index\vsignup.aspx.cs">
+      <DependentUpon>vsignup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index\vsignup.aspx.designer.cs">
+      <DependentUpon>vsignup.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
