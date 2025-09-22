@@ -201,27 +201,20 @@ img {
     <form id="form1" runat="server">
         <div>
               <header>
-<div class="logo"><a href="http://127.0.0.1:5500/home_ps.html"><img alt="Logo" src="../image/logo.jpg"></a> | AgriMech Mart</div>
+<div class="logo"><a href="http://localhost:50446/index/home.aspx">
+    <img alt="Logo" src="../image/logo.jpg"></a> | AgriMech Mart</div>
 <div class="search-bar">
 <input placeholder="Search for spare parts, brands, or part numbers..." type="text"/>
 </div>
 <nav>
-<a href="http://127.0.0.1:5500/product_ps.html" target="_blank">Products</a>
-<a href="http://127.0.0.1:5500/vendor_ps.html#" target="_blank">Vendor Portal</a>
-<a href="http://127.0.0.1:5500/cart.html">Cart</a>
-<a href="http://127.0.0.1:5500/checkout.html">Checkout</a>
-<a href="http://127.0.0.1:5500/login_ps.html" target="_blank">Login</a>
+<a href="http://localhost:50446/index/product.aspx" target="_blank">Products</a>
+<a href="http://localhost:50446/index/vlogin.aspx" target="_blank">Vendor Portal</a>
+<a href="http://localhost:50446/index/cart.aspx">Cart</a>
+<a href="http://localhost:50446/index/checkout.aspx">Checkout</a>
+<a href="http://localhost:50446/index/login.aspx" target="_blank">Login</a>
+ <a href="http://localhost:50446/index/signin.aspx " target="_blank">Sign in</a>
 </nav>
 </header>
-<!-- <header>
-<h1>Paddy Harvester - Spare Parts</h1>
-<div class="hero button">
-<button onclick="window.open('home_ps.html', '_blank')">
- Home </button>
-<button onclick="window.open('cart.html', '_blank')">
- Cart → </button>
-</div>
-</header> -->
 <div class="container">
 <!-- Filters Section -->
 <div class="filters">

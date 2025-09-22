@@ -88,6 +88,7 @@
     <Content Include="index\product.aspx" />
     <Content Include="index\signin.aspx" />
     <Content Include="index\vendor.aspx" />
+    <Content Include="index\vlogin.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +147,13 @@
     </Compile>
     <Compile Include="index\vendor.aspx.designer.cs">
       <DependentUpon>vendor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index\vlogin.aspx.cs">
+      <DependentUpon>vlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index\vlogin.aspx.designer.cs">
+      <DependentUpon>vlogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
