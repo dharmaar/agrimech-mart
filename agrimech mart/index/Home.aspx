@@ -379,7 +379,7 @@ img {
 </div>
 <nav>
 <a href="http://localhost:50446/index/product.aspx" target="_blank">Products</a>
-<a href="http://localhost:50446/index/vlogin.aspx" target="_blank">Vendor Portal</a>
+<a href="http://localhost:50446/index/vlogin.aspx" target="_blank">Vendor Login</a>
 <a href="http://localhost:50446/index/cart.aspx">Cart</a>
 <a href="http://localhost:50446/index/checkout.aspx">Checkout</a>
 <a href="http://localhost:50446/index/login.aspx" target="_blank">Login</a>

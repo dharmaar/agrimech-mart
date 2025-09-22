@@ -293,7 +293,7 @@ img {
 </div>
 <nav>
 <a href="http://localhost:50446/index/product.aspx" target="_blank">Products</a>
-<a href="http://localhost:50446/index/vlogin.aspx" target="_blank">Vendor Portal</a>
+<a href="http://localhost:50446/index/vlogin.aspx" target="_blank">Vendor Login</a>
 
 </nav>
 </header>

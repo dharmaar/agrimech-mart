@@ -91,7 +91,7 @@ img {
 </div>
 <nav>
 <a href="http://127.0.0.1:5500/product_ps.html" target="_blank">Products</a>
-<a href="http://127.0.0.1:5500/vendor_ps.html#" target="_blank">Vendor Portal</a>
+<a href="http://127.0.0.1:5500/vendor_ps.html#" target="_blank">Vendor Login</a>
 <a href="http://127.0.0.1:5500/cart.html">Cart</a>
 <a href="http://127.0.0.1:5500/checkout.html">Checkout</a>
 <a href="http://127.0.0.1:5500/login_ps.html" target="_blank">Login</a>
