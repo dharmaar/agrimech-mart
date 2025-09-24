@@ -391,7 +391,9 @@ img {
 <div class="hero-text">
 <h1>Premium Paddy Harvester Spare Parts</h1>
 <p>Keep your harvest running smoothly with genuine OEM parts and expert support. Fast delivery, competitive prices, and unmatched quality.</p>
-<asp:Button ID="btnRedirect" runat="server" Text="Shop Parts Now →"  />
+   
+<button onclick="window.open('http://localhost:50446/index/product.aspx', '_blank')">
+  Shop Parts Now →</button>
 
     
 </div>
@@ -486,7 +488,7 @@ img {
 </div>
 </div>
 <section class="hero">
-<div class="hero-text"><button onclick="window.open('product_ps.aspx', '_blank')">
+<div class="hero-text"><button onclick="window.open('http://localhost:50446/index/product.aspx', '_blank')">
   explore more →</button></div></section>
 <!-- Vendors -->
 <section class="vendors">

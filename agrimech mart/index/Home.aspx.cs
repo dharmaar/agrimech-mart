@@ -9,11 +9,6 @@ namespace agrimech_mart.index
 {
     public partial class Home : System.Web.UI.Page
     {
-        protected void btnRedirect_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/product.aspx");
-
-
-        }
+       
     }
 }
