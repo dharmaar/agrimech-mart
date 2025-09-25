@@ -535,7 +535,7 @@ img {
 <footer>
     © 2025 Paddy Harvester Spare Parts. All rights reserved.
   </footer>
-<script src="script.js"></script>
+
         </div>
     </form>
 </body>
